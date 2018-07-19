@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Note - you must have provided permission for your GCE instance before you can run this
+
 if [ "$#" -ne 3 ]; then
     echo "authorize_dataproc.sh clustername  zone  numworkers"
     echo "  e.g.  ./authorize_dataproc.sh cluster-1 us-east1-b 2"
